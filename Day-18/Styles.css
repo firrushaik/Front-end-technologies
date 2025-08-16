@@ -1,0 +1,27 @@
+h1{
+    color: red;
+    background-color: aqua;
+    border: 1px solid rgb(169, 20, 97);
+    display: block;
+
+}
+
+div{
+    text-align: center;
+}
+
+a{ 
+   color: rgb(19, 169, 79);
+   background-color: black;
+   display: block;
+}
+
+span{
+    border: 1px solid yellow;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    font-style: italic;
+    display: block;
+    background: chartreuse;
+
+}
