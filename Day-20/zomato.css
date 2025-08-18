@@ -1,0 +1,14 @@
+.MainDiv{
+    background-color: antiquewhite;
+    width: 500px;
+    height: 450px;
+    border-radius: 3%;
+}
+img{
+    margin-left: 12px;
+    margin-top: 12px;
+    border-radius: 4%;
+}
+pre{
+    font-size: 18px;
+}
