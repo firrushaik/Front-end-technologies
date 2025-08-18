@@ -1,0 +1,28 @@
+.red{
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    margin: 12px;
+    border-radius: 50%;
+}
+.green{
+    background-color: green;
+    height: 30px;
+    width: 30px;
+    margin: 12px;
+    border-radius: 50%;
+
+    
+}
+.yellow{
+    background-color: yellow;
+    height: 30px;
+    width: 30px;
+    margin: 12px;
+    border-radius: 50%;
+}
+.Traffic-Lights{
+    background-color: rgb(23, 14, 3);
+    height: 130px;
+    width: 50px;
+}
