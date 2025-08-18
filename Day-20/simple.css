@@ -1,0 +1,30 @@
+.html-container{
+    color: rgb(208, 10, 10);
+    background-color: rgb(123, 196, 27);
+    width: 250px;
+    height: 150px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    border-radius: 3%;
+}
+.css-container{
+    color: rgb(19, 22, 12);
+    height:150px ;
+    width: 250px;
+    background-color: cadetblue;
+    padding-top: 5px;
+    padding-left: 20px;
+    margin-left: 5px;
+    margin-top: 20px;
+    float: left;
+    border-radius: 3%;
+}
+div{
+    background-color: rgb(213, 57, 57);
+    width: 580px;
+    height: 200px;
+    border-radius: 7px;
+}

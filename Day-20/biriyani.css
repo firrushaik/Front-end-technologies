@@ -1,0 +1,22 @@
+div{
+    background-color: rgba(120, 35, 35, 0.597);
+    width: 495px;
+    height: 500px;
+    border-radius: 3%;
+}
+img{
+    height: 300px;
+    width: 450px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 3%;
+}
+h1{
+    margin-left: 15px;
+    text-align: center;
+}
+p{
+    margin-left: 15px;
+    font-size: 20px;
+    text-align: center;
+}
