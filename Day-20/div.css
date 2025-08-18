@@ -1,0 +1,27 @@
+.html-Class{
+    color: brown;
+    background-color: aqua;
+    height: 120px;
+    width: 300px;
+    padding:20px;
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.css-Class{
+    color: rgb(163, 7, 116);
+    background-color: chartreuse;
+    height: 120px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.headerDiv{
+    background-color: rgb(221, 100, 173);
+    width: 750px;
+    height: 200px;
+}
