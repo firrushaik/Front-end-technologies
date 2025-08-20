@@ -1,0 +1,76 @@
+.first{
+    margin-left: 40px;
+    background-color: rgb(70, 119, 119);
+    border-radius: 10px;
+    margin-bottom: 70px;
+    height: 550px;
+    width: 500px;
+    img{
+    width: 400px;
+    height: 400px;
+    margin-top:20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+h1{
+    padding-left: 30px;
+}
+p{
+    padding-left: 30px;
+}}
+.second{
+    margin-left: 40px;
+    border-radius: 10px;
+    background-color: burlywood;
+    margin-bottom: 70px;
+    height: 550px;
+    width: 500px;
+
+
+    img{
+    width: 400px;
+    height: 400px;
+    margin-right: 20px;
+    margin-top:20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+
+}
+h1{
+    padding-left: 30px;
+}
+p{
+    padding-left: 30px;
+}}
+.third{
+    border-radius: 10px;
+    margin-left: 40px;
+    background-color: rgb(192, 221, 134);
+    margin-bottom: 70px;
+    height: 550px;
+    width: 500px;
+
+
+
+    img{
+    width: 400px;
+    height: 400px;
+    margin-top:20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+
+}
+h1{
+    padding-left: 30px;
+}
+p{
+    padding-left: 30px;
+}}
+.outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
