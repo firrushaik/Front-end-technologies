@@ -1,0 +1,39 @@
+.first{
+    height: 400px;
+    width: 400px;
+    background-color: cadetblue;
+}
+.second{
+    height: 400px;
+    width: 400px;
+    background-color: goldenrod;
+}
+.third{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+}
+.outer-container{
+    display: flex;
+    /* flex-direction: row;*/
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+   /* justify-content: center; */
+   /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+   /* justify-content: space-around; */
+
+
+   /* flex-direction: row-reverse; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+   /* justify-content: center; */
+   /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+   /* justify-content: space-around; */
+
+  /* flex-direction: column; */
+  flex-direction: column-reverse;
+
+
+}
