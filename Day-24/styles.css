@@ -1,0 +1,40 @@
+.p-container{
+    height: 100px;
+    width: 100px;
+    background-color:khaki;
+    border-radius: 5px;
+
+}
+.q-container{
+    height: 100px;
+    width: 100px;
+    background-color: hotpink;
+    border-radius: 5px;
+
+}
+.r-container{
+    height: 100px;
+    width: 100px;
+    background-color: palegreen;
+    border-radius: 5px;
+}
+.outer-container{
+    height: 900px;
+    width: 900px;
+    background-color: aqua;
+    /* before we can specify display as flex the containers shows in the one column( |^ ).
+    once we can specify display as flex the row direction is row by default( ---> ) */
+    display:flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+     justify-content: center; 
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+     align-items: flex-start; 
+    /* align-items: flex-end; */
+    /* align-items: center; */
+
+}
