@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main-container{
+    height: 100vh;
+    gap: 10px;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 3fr 1fr 1fr;
+    display: grid;
+}
+.header,.footer{
+    display: grid;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: greenyellow;
+    grid-column: 1 / span 2;
+}
+.nav{
+    display: grid;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: greenyellow;
+    grid-row: 2 / span 2;
+ 
+}
+.article{
+    display: grid;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: greenyellow;
+    grid-column: 2 / span 1;
+ 
+
+}
+.ads{
+    display: grid;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: greenyellow;
+    grid-row: 3 / span 1;
+ 
+}
