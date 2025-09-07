@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main-container{
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: none;
+}
+.first{
+    background-image: url("Images/firstImage.jpeg");
+    background-size: 370px;
+    /* height: 55vh; */
+    /* width: 410px; */
+    object-fit: cover;
+    /* border: none; */
+    /* margin-top: 100px; */
+}
+.second{
+    background-image: url("Images/secondImage.jpeg");
+    background-size: 370px;
+    object-fit: cover;
+}
+.third{
+            background-image: url("Images/thirdImage.jpeg");
+    background-size: 370px;
+    object-fit: cover;
+
+}
+.fourth{
+        background-image: url("Images/fourthImage.jpeg");
+    background-size: 370px;
+    object-fit: cover;
+
+}
+.adventureImage{
+    grid-row: 1 / span 1;
+    margin-top: -350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
