@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-container{
+    height: 500px;
+    width: 1000px;
+    background-color:dimgray;
+    display: flex;
+    /* gap is used only when flex-direction is row it's applied which means it gives spaces how much we want between them. */
+    gap: 20px;
+    display: grid; /* by default grid direction is column */
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    /* grid-template-rows: 100px 100px 100px 100px 100px; */
+
+}
+.first-container{
+    height: 100px;
+    /* width: 100px; */
+    background-color: cornflowerblue;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+.second-container{
+    height: 100px;
+    width: 100px;
+    background-color:darkblue;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.third-container{
+    height: 100px;
+    width: 100px;
+    background-color:darkslategrey;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.fourth-container{
+    height: 100px;
+    width: 100px;
+    background-color:deeppink;
+    /* color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.fifth-container{
+    height: 100px;
+    width: 100px;
+    background-color:goldenrod;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.sixth-container{
+    height: 100px;
+    width: 100px;
+    background-color:red;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.seventh-container{
+    height: 100px;
+    width: 100px;
+    background-color:sienna;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.eight-container{
+    height: 100px;
+    width: 100px;
+    background-color:springgreen;
+    /* color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}

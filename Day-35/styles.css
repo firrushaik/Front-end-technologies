@@ -33,6 +33,7 @@
         background-image: url("Images/fourthImage.jpeg");
     background-size: 370px;
     object-fit: cover;
+    
 
 }
 .adventureImage{
@@ -41,4 +42,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }

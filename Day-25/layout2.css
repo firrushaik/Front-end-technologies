@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.a-container{
+    height: 250px;
+    width: 250px;
+    background-color: lawngreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b-container{
+    height: 250px;
+    width: 250px;
+    background-color: lawngreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-container{
+    height: 250px;
+    width: 250px;
+    background-color: lawngreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer-container{
+    display: flex;
+    flex-direction: flex-start;
+    justify-content: space-between;
+}
