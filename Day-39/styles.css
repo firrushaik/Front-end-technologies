@@ -150,7 +150,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
     opacity: 0.9;
     color: white;
     display: flex;
@@ -185,4 +185,65 @@ font-size: 20px;
 }
 .subscribe-para{
     font-size: 14px;
+}
+.footer-section{
+    height: 550px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.footer-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+.footer-title{
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+.footer-items-list{
+    li{
+        list-style: none;
+        line-height: 30px;
+        font-size: 18px;
+    
+    }
+    li:hover{
+        cursor:pointer;
+        color:#e2781a;
+        text-decoration: underline;
+    }
+}
+.send-message{
+    background-color: #e2781a;
+    color: white;
+    border-radius: 30px;
+    padding: 18px;
+    font-size: 16px;
+    width: 220px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bakery-shop{
+    /* margin-top: 20px; */
+    margin-bottom: 50px;
+}
+.icons{
+color: #e2781a;
+fill: #e2781a;
+margin-top: 10px;
+}
+.icons:hover{
+    cursor: pointer;
+}
+.side-icon{
+    i{
+       color: #e2781a;
+       fill: #e2781a;
+       margin-right: 10px;
+    }
 }
