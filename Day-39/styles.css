@@ -45,6 +45,9 @@
     font-size: 17px;
     margin-top: 20px;
 }
+.hero-button:hover{
+    cursor: pointer;
+}
 .Sweets-section{
     background-image: url("images/sweetsImage.jpg");
     height: 920px;

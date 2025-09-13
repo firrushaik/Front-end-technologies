@@ -1,0 +1,378 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.hero-section{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 45px;
+    padding: 21px;
+    margin-left: 180px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.list-data{
+    cursor: pointer;
+}
+.list-info{
+    list-style: none;
+    display: flex;
+    margin-top: 37px;
+    font-size: 20px;
+    font-weight: bold;
+    gap: 30px;
+    margin-right: 190px;
+}
+.page:hover{
+color: #CD825B;
+}
+.about-us{
+    color: #CD825B;
+}
+.background-image{
+    background-image: url("Images/headerBcImage.jpg");
+    height: 1100px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 70px;
+}
+.image-content{
+    height: 410PX;
+    width: 600px;
+    background-color: #CD825B;
+    color: white;
+}
+.about-studio{
+    font-size: 26px;
+    padding: 40px 67px;
+}
+.beauty-studio{
+    font-size: 75px;
+    padding-left:  65px;
+    margin-bottom: 30px;
+}
+.image-content1{
+    display: flex;
+    justify-content: right;
+    padding-top: 550px;
+    padding-right: 110px;
+}
+.learn-more{
+    border: 1px solid white;
+    font-size: 24px; 
+    padding: 15px 27px;
+    margin: 0px 305px 0px 80px;
+}
+.learn-more:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.body-section{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+.first-row{
+    height: 650px;
+    display: flex;
+    
+}
+.hair-cut{
+    height: 650px;
+    width: 600px;
+    object-fit: cover;
+    
+}
+.row1-right{
+    height: 650px;
+    width: 600px;
+    background-color:#f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.content{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    li{
+        list-style: none;
+        line-height: 43px;
+    }
+ } 
+ .style{
+    color: #CD825B;
+    font-size: 70px;
+    padding-bottom: 60px;
+ }
+
+.second-row{
+    height: 650px;
+    display: flex;
+    
+}
+.close-up-hairdresser-work{
+    height: 650px;
+    width: 600px;
+    object-fit: cover;
+    
+}
+.row2-left{
+    height: 650px;
+    width: 600px;
+    background-color:#cd825b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.content2{
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    li{
+        list-style: none;
+        line-height: 44px;
+    }
+ } 
+ .colour{
+    color: white;
+    font-size: 66px;
+    padding-bottom: 50px;
+ }
+.third-row{
+    height: 650px;
+    display: flex;
+    
+}
+.woman-spa-during-skin-treatment{
+    height: 650px;
+    width: 600px;
+    object-fit: cover;
+}
+.row3-right{
+    height: 650px;
+    width: 600px;
+    background-color:#f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content3{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    li{
+        list-style: none;
+        line-height: 43px;
+    }
+ } 
+ .Treatments{
+    color: #CD825B;
+    font-size: 70px;
+    padding-bottom: 60px;
+ }
+
+ .our-masters{
+    color: #cd825b;
+    text-align: center;
+    font-size: 88px;
+    margin-bottom: 70px;
+ }
+ .master-1 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    url("images/master1.jpg");
+  height: 400px;
+  width: 300px;
+  background-position: top;
+  background-size: cover;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+ .our-master-bottom{
+    /* height: 1000px; */
+    margin-bottom: 200px;
+    
+ }
+ .masters-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1500px;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 70px;
+ }
+ .first-image{
+
+    background-image:linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ), url("Images/344.jpg");
+
+    height: 540px;
+    width: 370px;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+ }
+ .image-name{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+ }
+
+ .second-image{
+      background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    url("images/345.jpg");
+    height: 540px;
+    width: 373px;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+ }
+.third-image{
+    background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    url("images/346.jpg");
+    height: 540px;
+    width: 373px;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.fourth-image{
+    background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    url("images/347.jpg");
+    height: 540px;
+    width: 373px;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.fifth-image{
+    background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    url("images/348.jpg");
+    height: 540px;
+    width: 373px;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.sixth-image{
+    background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    url("images/349.jpg");
+    height: 540px;
+    width: 373px;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.icons{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.makeup-info{
+    display: flex;
+    gap: 50px;
+}
+
+.make-up-artist{
+    width: 560px;
+    height: 560px;
+    border-radius: 50%;
+    margin-left: 300px;
+    margin-right: 90px;
+}
+.info-details{
+    li{
+        list-style: none;
+        text-align: center;
+        font-size: 21px;
+        line-height: 31px;
+        opacity: 0.8;
+    }
+}
+.list-data-info{
+    margin-bottom: 60px;
+}
+
+.contact-us{
+font-size: 80px;
+text-align: center;
+font-weight: bold;
+margin-bottom: 50px;
+}
+.number , .mail-info{
+    text-decoration: underline;
+    font-size: 27px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.location{
+    font-size: 27px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.details-item{
+    font-size: 29px;
+    font-weight: bold;
+}
+.details{
+    margin-bottom: 100px;
+}
