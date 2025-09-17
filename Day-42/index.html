@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="student-details"> 
+    <h1>Student Details</h1>
+    <br />
+    <form action="https://www.google.com">
+        <label for="first-name">First Name:</label>
+        <input
+         type="text"
+          placeholder="john"
+          value="Rock"
+          name="fname"
+          id="first-name"
+          required />
+        <br />
+        <br />
+        <label for="last-name">Last Name:</label>
+        <input
+         type="text"
+          placeholder="Doe" 
+          name="lname"
+          id="last-name"
+          required />
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input 
+        type="email" 
+        placeholder="shaik723@gmail.com"
+        name="lname"
+        id="email"
+        required />
+        <br />
+        <br />
+        <p>Select the gender:</p>
+
+        <input type="radio" id="male" name="gender" value="male" required/>
+        <label for="male">Male</label>
+
+
+        <input type="radio" id="female" name="gender" value="female" required/>
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other" required/>
+        <label for="others">Others</label>
+
+        <br />
+        <br />
+        <input type="submit" value="Submit-Details" />
+    </form>
+    </div>
+    
+</body>
+</html>
