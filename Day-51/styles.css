@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FAF1EC;
+}
+.footer-section{
+    display: flex;
+    justify-content: center;
+}
+.womenImage{
+    background-image: url(images/womenImage.jpg);
+    height: 900px;
+    width: 600px;
+    background-position: top;
+    background-size: cover;
+}
+.footer-contact{
+    font-size: 70px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+form{
+    background-color: white;
+    height: 900px;
+    width: 650px;
+}
+.enter-your-name,.valid-email-address{
+    margin-bottom: 13px;
+    margin-left: 60px;
+    font-size: 19px;
+    width: 300px; 
+    height: 42px;
+    border: none;
+}
+.enter-your-message{
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    font-size: 19px;
+    padding-left: 60px;
+    padding-bottom: 105px;
+    padding-top: 80px;
+
+}
+.footer-submit{
+    height: 70px;
+    width: 550px;
+    font-weight: bold;
+    font-size: 19px;
+    background-color: white;
+    opacity: 0.7;
+    gap: 4px;
+    margin-left: 50px;
+    margin-top: 40px;
+
+}
+.footer-submit:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.follow-us{
+    margin-top: 80px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    opacity: 0.7;
+}
+span{
+    font-size: 34px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.fa-facebook{
+    color:rgb(24, 24, 147);
+}
+.fa-square-twitter{
+    color: rgb(5, 171, 237);
+    border-radius: 50px;
+}
+.fa-square-instagram{
+    color: rgb(181, 3, 163);
+}
