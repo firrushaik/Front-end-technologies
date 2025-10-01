@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+.main-container{
+        height: 700px;
+        width: 550px;
+        background-color: rgb(137, 143, 251);
+
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.image1{
+height: 450px;
+width: 450px;
+margin-top: 10px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 43px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left:120px;
+    font-style: italic;
+    
+}
+
+span{
+    padding-left: 70px;
+}
+
+p{
+    font-size:  25px;
+    padding-left: 20px;
+    
+}
