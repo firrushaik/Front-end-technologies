@@ -1,0 +1,33 @@
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-container{
+    background-image:url(https://www.readymessages.com/wp-content/uploads/2025/10/Happy-Diwali-Wishes-Messages-Quotes-Images.jpg);
+    height: 500px;
+    width: 500px;
+    background-position: top;
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-size: 34px;
+    margin: 50px 120px 0px 120px;
+}
+p{
+    margin: 20px 70px;
+    font-size: 25px;
+    font-style: italic;
+    /* color: aliceblue; */
+    color:aquamarine;
+}
